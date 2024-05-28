@@ -1,0 +1,124 @@
+﻿@model EventDetailViewModel
+
+<style>
+    #schoolUniName{
+        display:none;
+    }
+</style>
+
+<!-- Detail Start -->
+<div class="container-fluid ">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <h1 class="mb-5">@Model.Event.Name</h1>
+                    <img class="img-fluid rounded w-100 mb-4" src="~/Assets/img/@Model.Event.Image" alt="Image" style="height:400px;">
+                    <p>@Model.Event.Description</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+
+
+
+                <!-- Category List -->
+                <div class="mb-5">
+                    <div class="col-lg-5" style="max-width:100%;">
+                        <div class="card border-0">
+                            <div class="card-header bg-light text-center p-4">
+                                <h1 class="m-0">İndi Müraciət Et</h1>
+                            </div>
+                            <div class="card-body rounded-bottom bg-primary p-5">
+                                <form method="post" asp-controller="event" asp-action="detail">
+                                    <div class="form-group">
+                                        <input asp-for="FullName" class="form-control border-0 p-4" placeholder="Tam Adınız" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="Email" class="form-control border-0 p-4" type="email" placeholder="Emailiniz" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="PhoneNumber" class="form-control border-0 p-4" type="tel" placeholder="Nömrəniz" required="required" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input asp-for="EventId" hidden class="form-control border-0 p-4" placeholder="Mesajiniz" required="required" />
+                                    </div>
+<div>
+    <input asp-for="IsStudent" id="isStudent" onchange="toggleSchoolUniNameInput(this)" type="checkbox" />
+    <span style="color:white;">Tələbəyəm</span>
+</div>
+
+<div>
+    <input asp-for="IsTeacher" id="isTeacher" onchange="toggleSchoolUniNameInput(this)" type="checkbox" />
+    <span style="color:white;">Müəlliməm</span>
+</div>
+
+<div class="form-group">
+    <input asp-for="SchoolUniName" id="schoolUniName"  class="form-control border-0 p-4" placeholder="Məktəb/Universiitetinizin adı" />
+</div>
+
+
+
+
+                                    <div>
+                                        <button class="btn btn-dark btn-block border-0 py-3" type="submit">Təsdiqlə</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Detail End -->
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function toggleSchoolUniNameInput() {
+        var schoolUniNameInput = $("input[name='SchoolUniName']");
+        var isStudentChecked = $("input[name='userType'][value='student']").is(":checked");
+        var isTeacherChecked = $("input[name='userType'][value='teacher']").is(":checked");
+
+        if (isStudentChecked || isTeacherChecked) {
+            schoolUniNameInput.prop("hidden", false);
+        } else {
+            schoolUniNameInput.prop("hidden", true);
+        }
+    }   
+</script>
+
+
+
+
+
+<script>
+    function toggleSchoolUniNameInput(checkbox) {
+        var isStudentCheckbox = document.getElementById('isStudent');
+        var isTeacherCheckbox = document.getElementById('isTeacher');
+        var schoolUniNameInput = document.getElementById('schoolUniName');
+
+        // Uncheck the other checkbox when one is selected
+        if (checkbox.id === 'isStudent' && isTeacherCheckbox.checked) {
+            isTeacherCheckbox.checked = false;
+        } else if (checkbox.id === 'isTeacher' && isStudentCheckbox.checked) {
+            isStudentCheckbox.checked = false;
+        }
+
+        if (isStudentCheckbox.checked || isTeacherCheckbox.checked) {
+            // If either checkbox is checked, make the input visible
+            schoolUniNameInput.style.display = 'block';
+        } else {
+            // If neither checkbox is checked, hide the input
+            schoolUniNameInput.style.display = 'none';
+        }
+    }
+</script>

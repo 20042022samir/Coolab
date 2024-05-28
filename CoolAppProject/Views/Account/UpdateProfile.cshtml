@@ -1,0 +1,41 @@
+﻿@model UpdateProfileViewModel
+
+<div style="width:450px;margin:auto;padding:55px 0px 0px 0px;">
+
+    <form method="post" style="width:100%;" asp-controller="account" asp-action="updateprofile">
+        <h2>Profilinizi güncəlləyin</h2>
+        <div asp-validation-summary="ModelOnly" style="color:red;"></div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <input asp-for="Name" id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">Adi</label>
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <input asp-for="Surname" id="form2Example2" class="form-control" />
+            <label class="form-label" for="form2Example2">Soyad</label>
+        </div>
+
+
+        <div class="form-outline mb-4">
+            <input asp-for="UserName" id="form2Example2" class="form-control" />
+            <label class="form-label" for="form2Example2">Istifadeci Adi</label>
+        </div>
+
+         <div class="form-outline mb-4">
+            <input asp-for="CurrecntPassword" id="form2Example2" class="form-control" />
+            <label class="form-label" for="form2Example2">Indiki Password</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input asp-for="NewPassword" id="form2Example2" class="form-control" />
+            <label class="form-label" for="form2Example2">Yeni Password</label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-primary btn-block mb-4">Guncelle</button>
+
+    </form>
+</div>

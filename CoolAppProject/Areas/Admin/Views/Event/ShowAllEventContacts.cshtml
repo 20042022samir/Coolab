@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Media query for screens less than 800px */
+        @@media (max-width: 800px) {
+            .responsive-id,
+            .responsive-email {
+                display: none; /* Hide the Id and Email columns */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    @model IEnumerable<EventMessage>
+
+    <div style="display:flex;flex-direction:column;">
+        <table class="table table-hover table-dark">
+            <thead>
+                <tr>
+                    <th scope="col" class="responsive-id">Id</th>
+                    <th scope="col">Ad</th>
+                    <th scope="col" class="responsive-email">Email</th>
+                    <th scope="col">Nomre</th>
+                    <th scope="col">Tedbir</th>
+                    <th scope="col">Mesgulluq</th>
+                    <th scope="col">Uni/Mekteb</th>
+                    <th scope="col">Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row" class="responsive-id">@item.Id</th>
+                        <td>@item.UserName</td>
+                        <td class="responsive-email">@item.Email</td>
+                        <td>@item.PhoneNumber</td>
+                        <td>@item.Event.Name</td>
+                        @if (item.IsTeacher)
+                        {
+                            <td style="color:red;">Muellim</td>
+                        }
+                        else if(item.IsStudent)
+                        {
+                            <td style="color:red;">Telebe</td>
+                        }
+                        else
+                        {
+                            <td>--</td>
+                        }
+                        @if (item.SchoolUniName != null)
+                        {
+                            <td style="color:red;">@item.SchoolUniName</td>
+                        }else
+                        {
+                            <td>--</td>
+                        }
+                        <td><a asp-controller="event" asp-action="deleteeventcontact" asp-route-id="@item.Id">Sil</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>

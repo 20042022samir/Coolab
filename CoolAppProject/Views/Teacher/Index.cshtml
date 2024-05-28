@@ -1,0 +1,63 @@
+﻿@using CoolApp.Core.Entities;
+@model PagginationViewModel<Teacher>
+
+
+
+
+    <!-- Team Start -->
+    <div class="container-fluid ">
+        <div class="container pt-5 pb-1.5">
+            <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">@ViewBag.Teachers.Teachers</h5>
+            <h1>@ViewBag.Teachers.TeachersDesc</h1>
+            </div>
+            <div class="row" style="justify-content:center;">
+               @foreach (var item in Model.Items)
+            {
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="~/Assets/img/@item.Image" style="height:200px;" alt="">
+                            <div class="team-social">
+                                @if (item.Instagram != null)
+                                {
+                                   
+                                <a class="btn btn-outline-light btn-square mx-1" target="_blank" href="@item.Instagram"><i class="fab fa-instagram"></i></a>
+                                }
+                                @if (item.FaceBook1 != null)
+                                {
+                                    
+                                <a class="btn btn-outline-light btn-square mx-1" target="_blank" href="@item.FaceBook1"><i class="fab fa-facebook-f"></i></a>
+                                }
+                                @if (item.Linkedin != null)
+                                {
+                                    
+                                <a class="btn btn-outline-light btn-square mx-1" target="_blank" href="@item.Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                }
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>@item.FullName</h5>
+                            <p class="m-0">@item.Profession</p>
+                        </div>
+                    </div>
+                </div>
+
+            }
+            </div>
+        <div class="col-12">
+            <nav aria-label="Page navigation">
+                <ul class="pagination pagination-lg justify-content-center mb-0">
+
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="page-item"><a class="page-link" href="@Url.Action("Index", new { page = i, pageSize = Model.PageSize })">@i</a></li>
+                    }
+
+                </ul>
+            </nav>
+        </div>
+
+        </div>
+    </div>
+    <!-- Team End -->

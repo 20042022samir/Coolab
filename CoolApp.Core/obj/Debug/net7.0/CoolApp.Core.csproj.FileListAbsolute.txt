@@ -1,0 +1,12 @@
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\bin\Debug\net7.0\CoolApp.Core.deps.json
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\bin\Debug\net7.0\CoolApp.Core.dll
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\bin\Debug\net7.0\CoolApp.Core.pdb
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.dll
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\refint\CoolApp.Core.dll
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\CoolApp.Core.pdb
+C:\Users\ASUS\source\repos\CoolAppProject\CoolApp.Core\obj\Debug\net7.0\ref\CoolApp.Core.dll

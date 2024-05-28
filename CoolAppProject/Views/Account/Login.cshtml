@@ -1,0 +1,106 @@
+﻿@model LoginViewModel
+
+
+@{
+    int num = 0;
+}
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["Registered"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Registered"]</div>
+}
+
+<style>
+    #loginContainer{
+        width:450px;
+        margin:auto;
+        padding:30px 0px 0px 0px;
+    }
+    @@media screen and (max-width:500px){
+        #loginContainer{
+            width:300px;
+        }
+    }
+    @@media screen and (max-width:300px){
+        #loginContainer{
+            width:200px;
+        }
+    }
+</style>
+
+<h2 style="text-align:center;">Daxil Olun</h2>
+
+<div id="loginContainer" >
+
+<form method="post" style="width:100%;" asp-controller="account" asp-action="login" >
+        <div asp-validation-summary="ModelOnly" style="color:red;"></div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-3">
+        <input  asp-for="Email"  id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">@ViewBag.LoginWords.Email</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline ">
+        <input  asp-for="Password" id="form2Example2" class="form-control" />
+            <label class="form-label" for="form2Example2">@ViewBag.LoginWords.Password</label>
+    </div>
+
+    <!-- 2 column grid layout for inline styling -->
+    <div class="row mb-3" style="display:flex;flex-direction:column;">
+        <div class="col d-flex">
+            <!-- Checkbox -->
+            <div class="form-check">
+                <input class="form-check-input" asp-for="IsRememberMe" type="checkbox"  id="form2Example31"  />
+                <label class="form-check-label" for="form2Example31"> Meni Xatirla </label>
+            </div>
+        </div>
+
+        <div class="col" style="display:flex;flex-direction:column;">
+            <!-- Simple link -->
+            <a asp-controller="account" asp-action="forgetpassword">Şifrəni Unutdum</a>
+            <a asp-controller="account" asp-action="register">Qeydiyyatdan keç</a>
+        </div>
+
+    </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Daxil Ol</button>
+
+</form>
+</div>
+
+
+
+<script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message")
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+
+            Swal.fire({
+
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("/images/nyan-cat.gif")
+                    left top
+                    no-repeat
+                  `
+            })
+
+        }
+
+
+    }
+
+
+</script>
+

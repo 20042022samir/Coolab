@@ -1,0 +1,143 @@
+﻿@model SearchViewModel
+
+<div class="container-fluid ">
+    <div class="container ">
+        @if (Model.Courses.Count() == 0 && Model.Events.Count() == 0 && Model.Teachers.Count() == 0)
+        {
+            <h1>Axtarışınıza uyğun nəticə tapılmadı</h1>
+        }
+        else
+        {
+
+            <div class="text-center mb-5">
+                <h1>Axtarış nəticələriniz</h1>
+            </div>
+            @if (Model.Courses.Count() != 0)
+            {
+
+                <div class="container-fluid ">
+                    <div class="container ">
+                        <div class="text-center mb-5">
+                            <h1>Seminarlar</h1>
+                        </div>
+                        <div class="row">
+                            @foreach (var item in Model.Courses)
+                            {
+
+                                <div class="col-lg-4 col-md-6 mb-4">
+                                    <a asp-controller="course" asp-action="detail" asp-route-id="@item.Id">
+
+                                        <div class="rounded overflow-hidden mb-2">
+                                            <img class="img-fluid" src="~/Assets/img/@item.Image" alt="" style="width:100%;height:200px;">
+                                            <div class="bg-secondary p-4">
+                                                <div class="d-flex  mb-3" style="align-items:center;column-gap:10px;">
+                                                    <span>
+
+                                                        <i class="fa-solid fa-book"></i>
+                                                    </span>
+                                                    <a asp-controller="home" asp-action="subjectdetail" asp-route-id="@item.Subject.Id">
+
+                                                        <small class="m-0" style="color:orange;">@item.Subject.Name</small>
+                                                    </a>
+                                                </div>
+                                                <a class="h5" href="">@item.Name</a>
+                                                <div class="border-top mt-4 pt-4" style="align-items:center;">
+                                                    <div class="d-flex justify-content-between" style="align-items:center;">
+                                                        <a asp-controller="course" asp-action="detail" asp-route-id="@item.Id" style="padding:6px 9px; background-color:orangered;color:white;cursor:pointer;">Müraciət et</a>
+                                                        <div>
+                                                            <span style="padding:2px 4px;background-color:orangered;color:white;">@item.Price AZN</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            }
+                        </div>
+
+
+                    </div>
+                </div>
+
+            }
+
+            @if (Model.Events.Count() != 0)
+            {
+
+                <h1 style="text-align:center;">Tədbirlər</h1>
+                <div class="row">
+                    @foreach (var item in Model.Events)
+                    {
+
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <a asp-controller="event" asp-action="detail" asp-route-id="@item.Id">
+
+                                <div class="rounded overflow-hidden mb-2">
+                                    <img class="img-fluid" src="~/Assets/img/@item.Image" alt="" style="width:100%;height:200px;">
+                                    <div class="bg-secondary p-4">
+
+                                        <a class="h5" href="">@item.Name</a>
+
+                                        <h2>@item.StartedDate.Day:@item.StartedDate.Month:@item.StartedDate.Year</h2>
+                                        <div class="border-top mt-4 pt-4">
+                                            <div class="d-flex justify-content-between">
+                                                <a asp-controller="event" asp-action="detail" asp-route-id="@item.Id" style="padding:6px 9px; background-color:orangered;color:white;cursor:pointer;">Muraciet et</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    }
+                </div>
+            }
+
+
+            @if (Model.Teachers.Count() != 0)
+            {
+                <h2 style="text-align:center;">Müəllimlər</h2>
+                <div class="row" style="justify-content:center;">
+                    @foreach (var item in Model.Teachers)
+                    {
+                        <div class="col-md-6 col-lg-3 text-center team mb-4">
+                            <div class="team-item rounded overflow-hidden mb-2">
+                                <div class="team-img position-relative">
+                                    <img class="img-fluid" src="~/Assets/img/@item.Image" style="height:200px;" alt="">
+                                    <div class="team-social">
+                                        @if (item.Instagram != null)
+                                        {
+
+                                            <a class="btn btn-outline-light btn-square mx-1" target="_blank" href="@item.Instagram"><i class="fab fa-instagram"></i></a>
+                                        }
+                                        @if (item.FaceBook1 != null)
+                                        {
+
+                                            <a class="btn btn-outline-light btn-square mx-1" target="_blank" href="@item.FaceBook1"><i class="fab fa-facebook-f"></i></a>
+                                        }
+                                        @if (item.Linkedin != null)
+                                        {
+
+                                            <a class="btn btn-outline-light btn-square mx-1" target="_blank" href="@item.Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                        }
+                                    </div>
+                                </div>
+                                <div class="bg-secondary p-4">
+                                    <h5>@item.FullName</h5>
+                                    <p class="m-0">@item.Profession</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+                </div>
+
+            }
+
+        }
+
+    </div>
+</div>

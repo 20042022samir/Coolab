@@ -1,0 +1,1637 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CoolAppProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CoolAppProject.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\js\\template.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\charts\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\charts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\forms\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\forms\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\icons\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\icons\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\samples\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\samples\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\tables\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\tables\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\ui-features\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\ui-features\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\Admin\\Assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\008a793f-015a-4e84-9a19-948938865b24khouse2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\008a793f-015a-4e84-9a19-948938865b24khouse2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\024a80eb-4327-494f-a834-e7c5b4c0948amadrid.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\024a80eb-4327-494f-a834-e7c5b4c0948amadrid.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\027813c6-8a12-4b37-8e5a-2f4c2a316782chess.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\027813c6-8a12-4b37-8e5a-2f4c2a316782chess.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\03a1b1a9-0a00-4751-8a29-8bcb6ca45c66men.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\03a1b1a9-0a00-4751-8a29-8bcb6ca45c66men.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\09214421-8988-4307-adf6-1f6b7243a790khouse2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\09214421-8988-4307-adf6-1f6b7243a790khouse2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\0a69eef9-3c1b-48aa-9784-2b836310d69bkhamzat.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\0a69eef9-3c1b-48aa-9784-2b836310d69bkhamzat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\0c152ffc-283a-4fa9-a8a7-78b4a6a86966deadpooll.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\0c152ffc-283a-4fa9-a8a7-78b4a6a86966deadpooll.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\0c35fa50-9ad5-4814-ba65-c344fbf769b9elon.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\0c35fa50-9ad5-4814-ba65-c344fbf769b9elon.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\0d6faf2a-6831-4815-967c-34f4ea01fdcdjonh3.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\0d6faf2a-6831-4815-967c-34f4ea01fdcdjonh3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\0e955039-319b-4a95-9635-e69275f1e315shark3.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\0e955039-319b-4a95-9635-e69275f1e315shark3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\15faaef9-ad0e-4dcd-bb48-c5ffc9d7d3d0jonh2.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\15faaef9-ad0e-4dcd-bb48-c5ffc9d7d3d0jonh2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\18815299-9834-4d2b-93cd-5d36c0135881Zain.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\18815299-9834-4d2b-93cd-5d36c0135881Zain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\1af08787-733b-4c4d-ae1c-aa785f8b256ddiv.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\1af08787-733b-4c4d-ae1c-aa785f8b256ddiv.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\1ba94b3b-eada-474a-8829-ae3004a87996codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\1ba94b3b-eada-474a-8829-ae3004a87996codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\1d2d5269-b35c-4b3f-bf4b-90847367d5d4marketing.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\1d2d5269-b35c-4b3f-bf4b-90847367d5d4marketing.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\1e37b6d9-8c76-4a21-ac2c-122160e64572workout.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\1e37b6d9-8c76-4a21-ac2c-122160e64572workout.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\1f66e450-578c-49b4-95a9-9c0da78667aechinaa2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\1f66e450-578c-49b4-95a9-9c0da78667aechinaa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\1fd97abc-9938-411c-9a0b-6d0a5a262734.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\1fd97abc-9938-411c-9a0b-6d0a5a262734.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2549e011-03a5-43c7-a8a9-53843a72e419ironman.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\2549e011-03a5-43c7-a8a9-53843a72e419ironman.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\274ef563-9270-4f8f-b4da-cebe7d42a489div.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\274ef563-9270-4f8f-b4da-cebe7d42a489div.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2891d74c-4c44-4b4b-8332-d5904382c0afrap.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\2891d74c-4c44-4b4b-8332-d5904382c0afrap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2abafc9c-f5f7-4b5b-9311-3083e16763fcferran.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\2abafc9c-f5f7-4b5b-9311-3083e16763fcferran.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2af14fea-3a33-4982-9255-7d0a56c0082aHomeLand.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\2af14fea-3a33-4982-9255-7d0a56c0082aHomeLand.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2d0e73ca-da25-4ee2-b3b0-9a2d8051ad2dlanadelrey.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\2d0e73ca-da25-4ee2-b3b0-9a2d8051ad2dlanadelrey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2d448f91-7077-4629-a6fe-f752689bca66ozum.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\2d448f91-7077-4629-a6fe-f752689bca66ozum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2d655dcf-cf50-4e18-9d43-31e9d88acaceMyself.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\2d655dcf-cf50-4e18-9d43-31e9d88acaceMyself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\2f52aa1f-adc8-42e5-92c7-c650f6ebc727firdayGYM.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\2f52aa1f-adc8-42e5-92c7-c650f6ebc727firdayGYM.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\306f9195-bab7-4b8c-8188-f9aefbb59dd6men.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\306f9195-bab7-4b8c-8188-f9aefbb59dd6men.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\31d74f81-3ba6-4176-9d55-72a3ed9741ebkhouse2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\31d74f81-3ba6-4176-9d55-72a3ed9741ebkhouse2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\32b2b81c-7fb8-4080-9623-b3903340e145madicine.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\32b2b81c-7fb8-4080-9623-b3903340e145madicine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\34c83c58-efd9-4ddd-9262-164cd3689c09jonh1.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\34c83c58-efd9-4ddd-9262-164cd3689c09jonh1.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\34e0592e-fb13-40fa-bb34-ce3f3d6d4550mma.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\34e0592e-fb13-40fa-bb34-ce3f3d6d4550mma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\368fd390-ea54-4480-90a1-bab3cbef6a8dbjj.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\368fd390-ea54-4480-90a1-bab3cbef6a8dbjj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\3715fabd-b1ce-492b-9f3c-12084fed40d1china2house.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\3715fabd-b1ce-492b-9f3c-12084fed40d1china2house.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\389794b1-a585-49c9-bbfd-707529381ac8Myself.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\389794b1-a585-49c9-bbfd-707529381ac8Myself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\38f3a1b0-f5dd-415c-9876-4ba4f9fa669bmadicine.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\38f3a1b0-f5dd-415c-9876-4ba4f9fa669bmadicine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\39dc80b7-6fc2-4544-8c91-7d5c0e7789a6siu.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\39dc80b7-6fc2-4544-8c91-7d5c0e7789a6siu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\39fafce1-baef-4907-a3ee-b9c491e3558dcoolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\39fafce1-baef-4907-a3ee-b9c491e3558dcoolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\3c17f68e-b028-4b38-bf9e-9e0a311394d4khamzat.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\3c17f68e-b028-4b38-bf9e-9e0a311394d4khamzat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\3c9c45c5-0705-4079-99d1-f22495380642.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\3c9c45c5-0705-4079-99d1-f22495380642.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\3f28eaf1-33fc-4698-83ea-0ed4ab4c4f16studeyforeign.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\3f28eaf1-33fc-4698-83ea-0ed4ab4c4f16studeyforeign.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\42969d03-caf6-4930-91e1-6c1a765d2f46coolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\42969d03-caf6-4930-91e1-6c1a765d2f46coolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\42b808bb-7405-438d-89c9-e7a834a65a73IT.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\42b808bb-7405-438d-89c9-e7a834a65a73IT.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\447c80b9-de08-4fb8-8ae1-f5b70dffc42bmadicine.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\447c80b9-de08-4fb8-8ae1-f5b70dffc42bmadicine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\48e766bc-3bf3-408a-930d-54d6c68d00e1money.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\48e766bc-3bf3-408a-930d-54d6c68d00e1money.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\4ce80af6-e3f3-411d-91ab-f96f6ca26bdfdiv.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\4ce80af6-e3f3-411d-91ab-f96f6ca26bdfdiv.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\4fdbf19f-c61e-455c-856e-cfeef55e6a5fenglish.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\4fdbf19f-c61e-455c-856e-cfeef55e6a5fenglish.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\51380238-a879-44f6-bac7-155dc1b962daferran.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\51380238-a879-44f6-bac7-155dc1b962daferran.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\53d34617-f204-40b0-b727-b807a9d0a300jonh3.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\53d34617-f204-40b0-b727-b807a9d0a300jonh3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\53e87e31-269e-4015-aa1f-0336b301feb2madicine.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\53e87e31-269e-4015-aa1f-0336b301feb2madicine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\5417c969-2e49-478f-9bf8-4c59cabf9508codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\5417c969-2e49-478f-9bf8-4c59cabf9508codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\57462a6b-7a6b-4dd4-aa8a-6c2d5918034acoolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\57462a6b-7a6b-4dd4-aa8a-6c2d5918034acoolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\589543d9-ebbc-4318-b44f-936cd8a0edcdbelinghamm.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\589543d9-ebbc-4318-b44f-936cd8a0edcdbelinghamm.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\594323ca-50d4-4fca-ab44-3f02e173dd76ReactNative.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\594323ca-50d4-4fca-ab44-3f02e173dd76ReactNative.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\59454d1f-8138-4c23-ab02-2d85f9261c56businessmann.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\59454d1f-8138-4c23-ab02-2d85f9261c56businessmann.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\5bbb7f8e-13f7-4888-992e-39f16e19c6ebshark1.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\5bbb7f8e-13f7-4888-992e-39f16e19c6ebshark1.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\5c290da4-bafe-45fd-b29a-0b4339d1da74joness.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\5c290da4-bafe-45fd-b29a-0b4339d1da74joness.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\5d4c4cff-2924-46b5-82d0-d6dffa50bd33ozum.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\5d4c4cff-2924-46b5-82d0-d6dffa50bd33ozum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\5f4100bb-bcd7-4ec9-8b7c-4639b5333dbctyson.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\5f4100bb-bcd7-4ec9-8b7c-4639b5333dbctyson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\605e4ca3-a24d-455c-9e42-7969a0116a81dark1.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\605e4ca3-a24d-455c-9e42-7969a0116a81dark1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\61d7caa6-2822-4818-906f-dc368e99f19a.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\61d7caa6-2822-4818-906f-dc368e99f19a.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\64691afb-e373-465b-85fb-ab3c1720df08Detroit.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\64691afb-e373-465b-85fb-ab3c1720df08Detroit.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\6577e134-b46b-4ed5-8ab4-f1a8befe5988codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\6577e134-b46b-4ed5-8ab4-f1a8befe5988codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\67e9f455-d504-471d-8b43-bcd9f4b949cfozum2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\67e9f455-d504-471d-8b43-bcd9f4b949cfozum2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\68c16879-9a4e-40e3-ad20-4a89f5180f68money.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\68c16879-9a4e-40e3-ad20-4a89f5180f68money.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\69f821ba-f77e-4d56-8ee8-611e4b9b14e0bjorn.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\69f821ba-f77e-4d56-8ee8-611e4b9b14e0bjorn.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\6c56bc46-2262-42c3-8e59-b7c6f42d7c82deadpooll.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\6c56bc46-2262-42c3-8e59-b7c6f42d7c82deadpooll.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\6da14bd2-156f-46ee-b4d0-8d9552d33b13workout.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\6da14bd2-156f-46ee-b4d0-8d9552d33b13workout.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\6dfdb160-4bd6-4a1f-a741-481d85381184div.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\6dfdb160-4bd6-4a1f-a741-481d85381184div.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\6e5b4858-55d5-4b2c-9da4-71b2671656b0bjorn.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\6e5b4858-55d5-4b2c-9da4-71b2671656b0bjorn.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\6e7e3dd0-f5cc-4fe7-9e3d-40c1129b7021wrestling.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\6e7e3dd0-f5cc-4fe7-9e3d-40c1129b7021wrestling.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\703e4d39-d89f-49fe-92bf-41aeeff0d1c4.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\703e4d39-d89f-49fe-92bf-41aeeff0d1c4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\7252ccbc-d28a-4fb8-9ccd-d0887aa2a014sad.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\7252ccbc-d28a-4fb8-9ccd-d0887aa2a014sad.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\7e1948da-29e6-4a53-9ad2-fc3ba7f1a05ccoolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\7e1948da-29e6-4a53-9ad2-fc3ba7f1a05ccoolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\81c2bf1a-75ec-454f-ab6c-4e4f64f03e69haaland.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\81c2bf1a-75ec-454f-ab6c-4e4f64f03e69haaland.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\82ad6668-ff51-4f3f-aff1-347380e76680messi4.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\82ad6668-ff51-4f3f-aff1-347380e76680messi4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\838f61c9-f0d1-4ca2-b5f4-c143176be704khamzat.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\838f61c9-f0d1-4ca2-b5f4-c143176be704khamzat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\83afc17e-b09a-4b3d-b8f8-0133ae0a0282trump.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\83afc17e-b09a-4b3d-b8f8-0133ae0a0282trump.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\8459e5ea-9d8c-45b1-bb30-33fa32180f7fcodeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\8459e5ea-9d8c-45b1-bb30-33fa32180f7fcodeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\8540aaaa-8b09-481d-8170-af1916e56112workout.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\8540aaaa-8b09-481d-8170-af1916e56112workout.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\859bda00-4851-4055-b97f-76391701b956marketing.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\859bda00-4851-4055-b97f-76391701b956marketing.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\85c132a4-b70b-4cc9-8a7a-d0bae4586191codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\85c132a4-b70b-4cc9-8a7a-d0bae4586191codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\86cbcf52-3e9e-4c6f-9d76-886adf647057eddsheeran.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\86cbcf52-3e9e-4c6f-9d76-886adf647057eddsheeran.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\870e7a3c-4af8-4f3c-9b8b-6071570d93cctyson.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\870e7a3c-4af8-4f3c-9b8b-6071570d93cctyson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\87b18a79-615b-4836-8564-f56c26f70360meyxana.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\87b18a79-615b-4836-8564-f56c26f70360meyxana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\8af20dcf-cfd2-4fdc-b629-343b0ab1e78ekhouse2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\8af20dcf-cfd2-4fdc-b629-343b0ab1e78ekhouse2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\8f1e026d-21ea-4dde-8213-061b947c1ae1business.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\8f1e026d-21ea-4dde-8213-061b947c1ae1business.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\8f500e9b-33c2-4cbb-ad63-fb8b6aac16bacoolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\8f500e9b-33c2-4cbb-ad63-fb8b6aac16bacoolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\91d19393-4cac-493c-9ba8-67cb4dc357d4businessmann.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\91d19393-4cac-493c-9ba8-67cb4dc357d4businessmann.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\91d8ad9c-f009-465f-ab44-7f798d88d0efproduct1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\91d8ad9c-f009-465f-ab44-7f798d88d0efproduct1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\94c72094-490c-4153-975b-bf82b84655f6codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\94c72094-490c-4153-975b-bf82b84655f6codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\94dd6e6b-fce4-4ca4-8f66-b5e7788d2bcbcoolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\94dd6e6b-fce4-4ca4-8f66-b5e7788d2bcbcoolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\9828e77a-228e-44a1-8e11-32864ee68ae0codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\9828e77a-228e-44a1-8e11-32864ee68ae0codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\99783eb1-cdcf-42a8-b75f-e6e988623db2bjj.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\99783eb1-cdcf-42a8-b75f-e6e988623db2bjj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\9a10f540-9c7f-403a-b1d2-5ed55afd4b90codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\9a10f540-9c7f-403a-b1d2-5ed55afd4b90codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\9c12af93-3978-4e71-8833-5f7c8442d700codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\9c12af93-3978-4e71-8833-5f7c8442d700codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\9ceed946-220a-48ea-8522-2ffd282e5b2dML.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\9ceed946-220a-48ea-8522-2ffd282e5b2dML.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\a0a3f418-6784-4391-b584-a843657adc0emma.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\a0a3f418-6784-4391-b584-a843657adc0emma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\a3884555-2d47-41a9-b302-c8abb5c29fe7joness.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\a3884555-2d47-41a9-b302-c8abb5c29fe7joness.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\a99240e5-f0ef-4422-ad46-a018d60dbe76book1.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\a99240e5-f0ef-4422-ad46-a018d60dbe76book1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ab4e37d7-8261-4c2b-9f9e-c01292d4a5a9ML.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ab4e37d7-8261-4c2b-9f9e-c01292d4a5a9ML.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ad921c4f-e471-46d3-90b4-47bd68ddb53bbusinessmann.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ad921c4f-e471-46d3-90b4-47bd68ddb53bbusinessmann.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\b1d85172-2db9-47ba-8737-89e4bb6e2fc4andrewtate.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\b1d85172-2db9-47ba-8737-89e4bb6e2fc4andrewtate.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\b2a58fd2-4a7c-4ed7-9e11-479cbea87c29joness.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\b2a58fd2-4a7c-4ed7-9e11-479cbea87c29joness.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\b83a9297-5a67-4e92-a3f6-0e18ae07c6a4Samir.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\b83a9297-5a67-4e92-a3f6-0e18ae07c6a4Samir.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\b879f839-3a93-49f4-bef4-0e98eb269f9dmma.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\b879f839-3a93-49f4-bef4-0e98eb269f9dmma.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\bad889d4-2995-4c3e-9d02-bb7f9c4a6a49hulk.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\bad889d4-2995-4c3e-9d02-bb7f9c4a6a49hulk.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\bada6c7f-8d9c-4db1-bd88-197d32b657b2wrestling.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\bada6c7f-8d9c-4db1-bd88-197d32b657b2wrestling.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\blog-80x80.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\blog-80x80.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c2a98a26-c9c6-4759-a136-cb3679018e55coolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\c2a98a26-c9c6-4759-a136-cb3679018e55coolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c2c71296-c4ef-43f1-82fe-e9378cce2b5dMyself.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\c2c71296-c4ef-43f1-82fe-e9378cce2b5dMyself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c2d85c6f-5308-4ad6-893d-a30da5a7921cchess.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\c2d85c6f-5308-4ad6-893d-a30da5a7921cchess.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c50218c3-c646-4531-8cf2-b59a2358b463ML.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\c50218c3-c646-4531-8cf2-b59a2358b463ML.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c75145ad-d1d3-4067-b7ea-1a04681f5b20meyxana.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\c75145ad-d1d3-4067-b7ea-1a04681f5b20meyxana.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c7b26fcf-8a39-432b-a86b-900247ac11a3khouse3.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\c7b26fcf-8a39-432b-a86b-900247ac11a3khouse3.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c896a643-a8a7-472e-8e32-83d7b5d5c32adiv.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\c896a643-a8a7-472e-8e32-83d7b5d5c32adiv.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\c9d717f4-3b82-401b-9968-17cca349f0cd.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\c9d717f4-3b82-401b-9968-17cca349f0cd.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\cat-8.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\cat-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\course-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\course-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\course-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\course-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\course-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\course-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\course-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\course-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\course-5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\course-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\course-6.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\course-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\d22886c8-7c0a-4f42-b9fe-905bda4d2236codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\d22886c8-7c0a-4f42-b9fe-905bda4d2236codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\d2e997b6-1848-4b5a-9650-c360720d4e41education.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\d2e997b6-1848-4b5a-9650-c360720d4e41education.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\d697aa65-5828-4dd8-86bc-a46740011ddemadicine.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\d697aa65-5828-4dd8-86bc-a46740011ddemadicine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\d8c986f1-9aea-4ec9-9eb3-70d801db5539.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\d8c986f1-9aea-4ec9-9eb3-70d801db5539.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\d9923852-7ade-4edc-be79-ab0c6f99e98amadicine.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\d9923852-7ade-4edc-be79-ab0c6f99e98amadicine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\db52727f-f8b8-4ff4-a7c7-5736f1abf843suarez.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\db52727f-f8b8-4ff4-a7c7-5736f1abf843suarez.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\dbc5245b-0c73-43c9-96bf-ccd8454ebd05khouse3.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\dbc5245b-0c73-43c9-96bf-ccd8454ebd05khouse3.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\dd5819a1-3bcb-41aa-9115-023eeb4432deZain.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\dd5819a1-3bcb-41aa-9115-023eeb4432deZain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ddc0a513-3a7a-447e-90d7-569dd2605cdabook.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ddc0a513-3a7a-447e-90d7-569dd2605cdabook.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\de23341d-0e99-41a4-b72f-6f66fcd02c4bcoolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\de23341d-0e99-41a4-b72f-6f66fcd02c4bcoolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\e0589819-858e-4c36-aeb0-d8e94e1c3d97Zain.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\e0589819-858e-4c36-aeb0-d8e94e1c3d97Zain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\e1e99afe-0e4e-421f-ae10-eb69d71c5e00bjj.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\e1e99afe-0e4e-421f-ae10-eb69d71c5e00bjj.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\e3b6eb0e-e0df-4044-ab65-1067bf546cfdmadrid.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\e3b6eb0e-e0df-4044-ab65-1067bf546cfdmadrid.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\e798a8d1-e08f-4f90-be10-a17f0a52fbddZain.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\e798a8d1-e08f-4f90-be10-a17f0a52fbddZain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\e8187066-1881-4d5e-beb5-f86056fb577d.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\e8187066-1881-4d5e-beb5-f86056fb577d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ea5b74f0-ca5d-44c7-a4a2-7ddb2639e9d1codeac.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\ea5b74f0-ca5d-44c7-a4a2-7ddb2639e9d1codeac.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\eb794711-d022-4fbe-8e20-61125f7c2d41joness.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\eb794711-d022-4fbe-8e20-61125f7c2d41joness.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ed1eaf6e-6347-4ae9-b4e4-2576cea9c0d0.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ed1eaf6e-6347-4ae9-b4e4-2576cea9c0d0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ed9dbd62-5b11-41db-bc58-6b68350c7b61coolab.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ed9dbd62-5b11-41db-bc58-6b68350c7b61coolab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\edeca9d7-1bf8-4216-bf36-4f387db17745Myself.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\edeca9d7-1bf8-4216-bf36-4f387db17745Myself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ee5144bf-d89f-44c1-bc2b-55a61fb1e39ajoness.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ee5144bf-d89f-44c1-bc2b-55a61fb1e39ajoness.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\eeed0c25-89cd-46a5-8869-8f5c7170f6d1kylian.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\eeed0c25-89cd-46a5-8869-8f5c7170f6d1kylian.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\f223b3d6-6185-4546-9784-3b4164e5c4d8madrid.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\f223b3d6-6185-4546-9784-3b4164e5c4d8madrid.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\f2d31c4c-e085-4ced-8e62-03610dd730d8.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\f2d31c4c-e085-4ced-8e62-03610dd730d8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\f4df41be-2c76-4d7c-90c5-9baac9353d53marketing.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\f4df41be-2c76-4d7c-90c5-9baac9353d53marketing.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\f7e900c9-e618-461c-b146-ae51282a4eb3Myself.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\f7e900c9-e618-461c-b146-ae51282a4eb3Myself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\f9626487-43db-4889-9330-2c159d8e215bMyself.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\f9626487-43db-4889-9330-2c159d8e215bMyself.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\facd25bf-b0d2-4dec-b099-af65023a62f0chinaa1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\facd25bf-b0d2-4dec-b099-af65023a62f0chinaa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\fc700a4d-dac0-4419-9d07-8545fd20ca83Zain.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\fc700a4d-dac0-4419-9d07-8545fd20ca83Zain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\fd76b2f4-51c5-440e-9f0d-66cd3c61f7b8khouse3.webp",
+      "PackagePath": "staticwebassets\\Assets\\img\\fd76b2f4-51c5-440e-9f0d-66cd3c61f7b8khouse3.webp"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\ff205bee-6235-4889-bded-a628aa926c73chess.jpeg",
+      "PackagePath": "staticwebassets\\Assets\\img\\ff205bee-6235-4889-bded-a628aa926c73chess.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\page-header.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\page-header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\registration.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\registration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Assets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\Assets\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\Assets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\Assets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\CoolAppProject\\CoolAppProject\\wwwroot\\Assets\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\Assets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CoolAppProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CoolAppProject.props",
+      "PackagePath": "build\\CoolAppProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CoolAppProject.props",
+      "PackagePath": "buildMultiTargeting\\CoolAppProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CoolAppProject.props",
+      "PackagePath": "buildTransitive\\CoolAppProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

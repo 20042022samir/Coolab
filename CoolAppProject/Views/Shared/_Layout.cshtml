@@ -1,0 +1,401 @@
+﻿@using CoolApp.Core.Entities;
+@{
+    @inject CoolAppProject.Contexts.CoolAppDbContext _context;
+    PageData? pagedata = _context.PageDatas.Where(x => !x.IsDeleted && x.Id == 1).FirstOrDefault();
+    IEnumerable<Subject> Subjects = _context.Subjects.Where(x => !x.IsDeleted)
+    .ToList();
+    IEnumerable<Course> Courses =  _context.Courses.Where(x => !x.IsDeleted).ToList();
+    MetaTag tag = _context.MetaTags.Where(x => !x.IsDeleted).FirstOrDefault();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta content="@tag.MetaWord1" name="author">
+    <meta content="@tag.MetaWord2" name="keywords">
+    <meta content="@tag.MetaWord3" name="description">
+    <meta charset="utf-8" />
+
+    <meta content="width=device-width,initial-scale=1.0" name="viewport"> 
+      <script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+
+
+    <!-- Favicon -->
+    <link href="~/Assets/img/favicon.ico" rel="icon">
+    <link rel="icon" href="~/Assets/img/@pagedata.Logo" />
+	<link href="~/assets/owl.carousel.min.css" rel="stylesheet" />
+	<link href="~/assets/owl.theme.default.min.css" rel="stylesheet" />
+    <title>Coolab</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/Assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/Assets/css/style.css" rel="stylesheet">
+</head>
+
+<style>
+    #mobileLogin{
+        display:none;
+    }
+
+    #formMobile{
+        display:none;
+    }
+
+    #mobileInvisible{
+        display:flex;
+    }
+    #mobileFormInput{
+        padding:6px 10px;
+    }
+    #formsocials{
+        display:none;
+        column-gap:10px;
+        padding-right:10px;
+    }
+    @@media screen and (max-width:1000px){
+        .col-lg-3 .text-right{
+            display:initial;
+        }
+
+        #formMobile {
+            display:flex;
+        }
+
+        #mobileLogin{
+            display:initial;
+        }
+
+        #mobileInvisible{
+            display:none;
+        }
+        #formsocials{
+            display:initial;
+            column-gap:10px;
+            padding-right:0px;
+        }
+    }
+
+    @@media screen and (max-width:485px) {
+        #formMobile {
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            row-gap:10px;
+            padding-top:10px;
+        }
+        #formMobile input{
+            padding:
+        }
+        #mobileFormInput {
+            padding: 3px 6px;
+        }
+    }
+
+
+    /* Centered container styles */
+    .centered-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid #ccc;
+        padding: 20px;
+        background-color: #f9f9f9;
+        max-width: 600px;
+    }
+    /* Style for each item */
+    .result-item {
+        margin-bottom: 15px;
+    }
+
+        .result-item img {
+            max-width: 100px;
+            max-height: 100px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .result-item p {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+</style>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+    </div>
+    <!-- Topbar End -->
+    <!-- Navbar Start -->
+    <div class="container-fluid">
+        <div class="row border-top px-xl-5" style="padding:10px 0px;">
+            <div class="col-lg-3" id="mobileInvisible" style="justify-content:end;align-items:center;column-gap:10px;">
+                <a asp-controller="home" asp-action="index" class="text-decoration-none" style="display:flex;align-items:center;column-gap:10px;">
+                    <img src="~/Assets/img/@pagedata.Logo" style="width:75px;height:75px;border-radius:50px;" />
+                    @if (User.Identity.IsAuthenticated == true)
+                    {
+                        <i class="fa-solid fa-user" style="font-size:40px;"></i>
+                    }
+                </a>
+              
+              
+
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 ">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <img src="~/Assets/img/@pagedata.Logo" style="width:75px;height:75px;border-radius:50px;" />
+                    </a>
+
+
+                         <div id="formsocials" style="display:flex;">
+
+                            
+                        
+                            </div>
+
+                    
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse" style="width:50%;">
+                        <div class="navbar-nav py-0" style="display:flex;align-items:center;">
+                           
+
+                            <form id="formMobile" asp-controller="home" asp-action="makesearch" style="align-items:center;justify-content:center;">
+                                <input name="searchTerm" type="text" class="form-control " style="padding: 6px 10px;border-color:black;" placeholder="Axtarış et">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary px-4" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </div>
+                            </form>
+
+                            <a asp-controller="home" asp-action="index" style="display:flex;align-items:center;" class="nav-item nav-link active">Ana Səhifə</a>
+                            <a asp-controller="course" asp-action="index" style="display:flex;align-items:center;" class="nav-item nav-link">Tədbirlər</a>
+                            <a asp-controller="teacher" asp-action="index" style="display:flex;align-items:center;" class="nav-item nav-link">Təlimçilər</a>
+                            <a asp-controller="blog" asp-action="index" style="display:flex;align-items:center;" class="nav-item nav-link">Bloqlar</a>
+                            <a asp-controller="contact" asp-action="createcontact" style="display:flex;align-items:center;" class="nav-item nav-link">Əlaqə</a>
+                            <a asp-controller="event" asp-action="index" style="display:flex;align-items:center;" class="nav-item nav-link">Fəaliyyətlər</a>
+                
+           
+
+                            @if (User.Identity.IsAuthenticated == true)
+                            {
+                                @if(User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                                {
+                                    <a href="@Url.Action("Index", "Admin", new { area = "Home" })" class="nav-item nav-link"><i class="fa-solid fa-lock"></i></a>
+                                }   
+
+                            }
+
+
+
+
+                            @if (User.Identity.IsAuthenticated == false)
+                            {
+
+                                <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" asp-controller="account" asp-action="login">Daxil Olun</a>
+                            }
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" asp-controller="account" asp-action="logout">Çıxış</a>
+                            }
+                                                      @if(User.Identity.IsAuthenticated==false){
+
+                                <a asp-controller="account" asp-action="login" id="mobileLogin" class="nav-item nav-link" style="height:50%;"><i class="fa-solid fa-user"></i></a>
+                            }else
+                            {
+                               <a asp-controller="account" asp-action="logout"  id="mobileLogin" class="nav-item nav-link">Çıxış Et</a>
+                            }
+
+                        </div>
+                        
+                        
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    @RenderBody()
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-7 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Bizimle Əlaqə Qur</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>@pagedata.Address</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>@pagedata.PhoneNumber</p>
+                        <p><i class="fa fa-envelope mr-2"></i>@pagedata.Email</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light btn-square mr-2" href="@pagedata.Facebook" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="@pagedata.Linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-square mr-2" href="@pagedata.Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-square" href="@pagedata.Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Bizim Sahələr</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            @foreach (var item in Subjects)
+                            {
+                                <a class="text-white mb-2" asp-controller="home" asp-action="SubjectDetail" asp-route-id="@item.Id"><i class="fa fa-angle-right mr-2"></i>@item.Name</a>
+                            }           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 mb-5">
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 5px;">Məlumat Əldə Et</h5>
+                <p>Ən son məlumatları almaq üçün emailinizi daxil edin</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <form asp-controller="home" asp-action="createemaailfrominput" style="display:flex;">
+
+                        <input name="email" type="text" class="form-control " style="padding: 30px;border-color:black;" placeholder="Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary px-4" type="submit" style="width:140px;">Daxil Edin</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Assets/lib/easing/easing.min.js"></script>
+    <script src="~/Assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="~/Assets/mail/jqBootstrapValidation.min.js"></script>
+    <script src="~/Assets/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+	<script src="~/Assets/js/main.js"></script>
+
+    <script src="jquery.min.js"></script>
+
+	<script src="~/assets/js/owl.carousel.min.js"></script>
+    
+</body>
+
+</html>
+
+    <script>
+        $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+    </script>
+
+
+
+
+<script>
+    // Assuming this code is running in a browser environment
+
+    // Make an HTTP GET request to the GetAllCourses endpoint
+    fetch('https://localhost:7171/home/getallcourses')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Handle the JSON data (list of courses) returned from the server
+            console.log(data);
+            courses = data;
+        })
+        .catch(error => {
+            // Handle any errors that occurred during the fetch
+            console.error('Fetch error:', error);
+        });
+
+</script>
+
+
+
+<script>
+    function searchCourses() {
+        // Get the search term entered by the user
+        var searchTerm = document.getElementById('searchInput').value;
+
+        // Make an HTTP GET request to the backend
+        fetch(`https://localhost:7171/home/searchcourses?searchTerm=${encodeURIComponent(searchTerm)}`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Handle the JSON data (list of filtered courses) returned from the server
+                console.log(data);
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the fetch
+                console.error('Fetch error:', error);
+            });
+    }
+
+
+</script>
+
+
+<script>
+
+function sendData() {
+    const searchTerm = document.getElementById('searchInput').value;
+
+    // Perform some basic validation if needed
+    if (!searchTerm.trim()) {
+        alert('Axtarmaq ucun daxil etmelisiniz!');
+        return;
+    }
+
+    // Construct the URL to send the GET request to the backend
+    const url = `https://localhost:7171/home/MakeSearch?searchTerm=${encodeURIComponent(searchTerm)}`;
+
+    // Make the GET request to the backend endpoint
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok.');
+            }
+            return response.text();
+        })
+        .then(data => {
+            // Process the response as needed (render data, etc.)
+            console.log('Response from backend:', data);
+            // Redirect to the search results page if needed
+            // window.location.href = '/SearchResults'; // Redirect to search results page
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+}
+</script>

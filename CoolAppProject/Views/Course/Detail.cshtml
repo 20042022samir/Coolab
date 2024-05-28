@@ -1,0 +1,234 @@
+﻿@model CourseDetailViewModel
+
+<style>
+    #schoolUniName{
+        display:none;
+    }
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+</style>
+
+
+@{
+    int num = 0;
+}
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["Registered"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Registered"]</div>
+}
+
+
+
+<!-- Detail Start -->
+<div class="container-fluid ">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <h1 class="mb-5">@Model.Course.Name</h1>
+                    <img class="img-fluid rounded w-100 mb-4" src="~/Assets/img/@Model.Course.Image" alt="Image" style="height:400px;" >
+                    <p>@Model.Course.Description</p>
+                </div>
+
+                <section style="background-color: #eee;">
+                    <div class="container my-5 py-5">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-12 col-lg-10 col-xl-8">
+                                <form class="card" method="post" asp-controller="course" asp-action="ShareComment" asp-route-courseId="@Model.Course.Id">
+                                    <div class="card-footer py-3 border-0" style="background-color: #f8f9fa;">
+                                        <div class="d-flex flex-start w-100" style="display:flex;flex-direction:column;">
+                                            <div class="form-outline w-100">
+                                                <input asp-for="CommentUserName" class="form-control" type="text" rows="4"
+                                                          style="background: #fff;"/>
+                                                <label class="form-label" for="textAreaExample">Ad Və Soyadınız</label>
+                                            </div>
+
+                                            <div class="form-outline w-100">
+                                                <textarea asp-for="CommentUserMessage" class="form-control" id="textAreaExample" rows="4"
+                                                          style="background: #fff;"></textarea>
+                                                <label class="form-label" for="textAreaExample">Mesajınız</label>
+                                            </div>
+                                            <input asp-for="CourseId" hidden />
+                                        </div>
+                                        <div class="float-end mt-2 pt-1">
+                                            <button type="submit" class="btn btn-primary btn-sm">Rəy paylaş</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+
+    
+
+                <!-- Category List -->
+                <div class="mb-5">
+                    <div class="col-lg-5" style="max-width:100%;">
+                        <div class="card border-0">
+                            <div class="card-header bg-light text-center p-4">
+                                <h1 class="m-0">İndi Müraciət Et</h1>
+                            </div>
+                            <div class="card-body rounded-bottom bg-primary p-5">
+                                <form method="post" asp-controller="course" asp-action="detail" >
+                                    <div class="form-group">
+                                        <input asp-for="FullName" class="form-control border-0 p-4" placeholder="Tam Adınız" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="Email" type="email" class="form-control border-0 p-4" placeholder="Emailiniz" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input asp-for="PhoneNumber" class="form-control border-0 p-4" placeholder="Nömrəniz" required="required" />
+                                    </div>
+              
+
+                                     <div class="form-group">
+                                        <input asp-for="CourseId" hidden class="form-control border-0 p-4" placeholder="Mesajiniz" required="required" />
+                                    </div>
+
+
+
+                                    <div style="display:flex; align-items: center; justify-content: center;">
+                                        <input asp-for="IsTeacher" id="isTeacher" />
+                                        <label style="color:white;" for="isTeacher">Müəlliməm</label>
+                                    </div>
+                                    <div style="display:flex; align-items: center; justify-content: center;">
+                                        <input asp-for="IsStudent" id="isStudent" />
+                                        <label style="color:white;" for="isStudent">Tələbəyəm</label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input asp-for="SchoolUniName" id="schoolUniName" class="form-control border-0 p-4" placeholder="Universitet/Məktəb adı"  />
+                                    </div>
+
+
+                                    <div>
+                                        <button class="btn btn-dark btn-block border-0 py-3" type="submit">Təsdiqlə</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                @if (Model.Course.Teachers.Count()!= 0)
+                {
+                    
+                <!-- Recent Post -->
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Bu Seminarin    Müəllimləri</h3>
+                    @foreach (var item in Model.Course.Teachers)
+                    {
+                        <a class="d-flex align-items-center text-decoration-none mb-3" href="">
+                            <div style="display:flex;justify-content:center;align-items:center;column-gap:5px;">
+
+                            <img class="img-fluid rounded" src="~/Assets/img/@item.Image" alt="" style="width:150px;height:150px;">
+                            <div class="pl-3">
+                                <h6 class="m-1">@item.FullName</h6>
+                                <div style="display:flex;column-gap:10px;">
+                                    @if (item.FaceBook1 != null)
+                                    {
+                                        <a style="text-decoration:none;color:black;" href="@item.FaceBook1">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                    }
+                                    @if (item.Instagram != null)
+                                    {
+                                            <a style="text-decoration:none;color:black;" href="@item.Instagram">
+                                                <i class="fa-brands fa-instagram"></i>
+                                                </a>
+                                    }
+                                    @if (item.Linkedin != null)
+                                    {
+                                                <a style="text-decoration:none;color:black;" href="@item.Linkedin">
+<i class="fa-brands fa-linkedin"></i>                                                        </a>
+                                    }
+                                </div>
+                            </div>
+                            </div>
+                        </a>
+
+                    }
+                </div>
+                }
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Detail End -->
+
+<script>
+    // Get references to the checkbox inputs and the last input field
+    const isTeacherCheckbox = document.getElementById("isTeacher");
+    const isStudentCheckbox = document.getElementById("isStudent");
+    const schoolUniNameInput = document.getElementById("schoolUniName");
+
+    // Add event listeners to the checkbox inputs
+    isTeacherCheckbox.addEventListener("change", toggleLastInputVisibility);
+    isStudentCheckbox.addEventListener("change", toggleLastInputVisibility);
+
+    function toggleLastInputVisibility() {
+
+        if (isTeacherCheckbox.checked || isStudentCheckbox.checked) {
+            schoolUniNameInput.style.display = "block";
+        } else {
+            schoolUniNameInput.style.display = "none";
+        }
+    }
+    isTeacherCheckbox.addEventListener("click", function () {
+        if (isTeacherCheckbox.checked) {
+            isStudentCheckbox.checked = false;
+        }
+    });
+
+    isStudentCheckbox.addEventListener("click", function () {
+        if (isStudentCheckbox.checked) {
+            isTeacherCheckbox.checked = false;
+        }
+    });
+</script>
+
+
+
+
+        <script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message")
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+
+            Swal.fire({
+
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("/images/nyan-cat.gif")
+                    left top
+                    no-repeat
+                  `
+            })
+  
+        }
+
+
+    }
+
+
+</script>
+

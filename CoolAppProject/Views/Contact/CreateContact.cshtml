@@ -1,0 +1,106 @@
+﻿@using CoolApp.Core.Entities;
+@{
+    int num = 0;
+}
+
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["Registered"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Registered"]</div>
+
+}
+
+@model Contact 
+
+
+<!-- Contact Start -->
+<div class="container-fluid ">
+    <div class="container ">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">@ViewBag.ContactWords.Contact </h5>
+            <h1>@ViewBag.ContactWords.ContactDesc </h1>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="contact-form bg-secondary rounded p-5">
+                    <div id="success"></div>
+                    @if (ViewBag.User != null)
+                    {
+                        <h2>Salam @ViewBag.User.Name</h2>
+                    }
+                    <form asp-controller="contact" asp-action="createcontact"    >
+                       
+
+                        @if (ViewBag.User != null)
+                        {
+                            <div class="control-group">
+                                <input asp-for="Name" hidden type="text" value="@ViewBag.User.Name" class="form-control border-0 p-4" id="name" placeholder="Adınız" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        <div class="control-group">
+                            <input asp-for="Email" hidden value="@ViewBag.User.Email"   class="form-control border-0 p-4"  placeholder="Emailiniz" />
+                            <p class="help-block text-danger"></p>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="control-group">
+                                <input asp-for="Name"  type="text" class="form-control border-0 p-4" id="name" placeholder="Adınız" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input asp-for="Email"   class="form-control border-0 p-4" placeholder="Emailiniz" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        }
+
+                        <div class="control-group">
+                            <input asp-for="PhoneNumber" type="text" class="form-control border-0 p-4" id="subject" placeholder="Telefon nömrəniz"  data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea asp-for="Message"  class="form-control border-0 py-3 px-4" rows="5" id="message" placeholder="Mesajınız"  ></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary py-3 px-5" type="submit" >Mesaj Göndərin</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+
+
+<script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message")
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+
+            Swal.fire({
+
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("/images/nyan-cat.gif")
+                    left top    
+                    no-repeat
+                  `
+            })
+        }
+
+
+    }
+
+
+</script>

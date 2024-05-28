@@ -1,0 +1,47 @@
+﻿@model Blog
+
+<style>
+    /* CSS styles for the section */
+    section {
+        padding: 50px 0;
+        background-color: #f9f9f9;
+    }
+
+    #section1Container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+        #section1Container div {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 30px;
+        }
+
+        #section1Container h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        #section1Container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+</style>
+
+<section>
+    <div id="section1Container">
+        <div>
+            <h2>Name: @Model.UserName</h2>
+            <p>Description: @Model.Description</p>
+            <img src="~/Assets/img/@Model.Image" alt="Blog Image" />
+        </div>
+    </div>
+</section>

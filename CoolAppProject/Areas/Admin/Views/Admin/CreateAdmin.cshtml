@@ -1,0 +1,87 @@
+﻿@using CoolAppProject.ViewModels;
+@model RegisterViewModel
+
+@{
+    int num = 0;
+}
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["Registered"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Registered"]</div>
+}
+
+<div style="width:100%; max-width: 450px; margin:auto; padding:55px 10px;">
+
+    <form method="post" style="width:100%;" asp-controller="admin" asp-action="createadmin">
+        <div asp-validation-summary="ModelOnly" style="color:red;"></div>
+
+        <div class="mb-4">
+            <label for="Name" class="form-label">Admin Adi</label>
+            <input asp-for="Name" id="Name" class="form-control" />
+        </div>
+
+        <div class="mb-4">
+            <label for="Surname" class="form-label">Soyadi</label>
+            <input asp-for="Surname" id="Surname" class="form-control" />
+        </div>
+
+        <div class="mb-4">
+            <label for="Email" class="form-label">Mail</label>
+            <input asp-for="Email" id="Email" class="form-control" />
+        </div>
+
+        <div class="mb-4">
+            <label for="UserName" class="form-label">Istifadeci Adi</label>
+            <input asp-for="UserName" id="UserName" class="form-control" />
+        </div>
+
+        <div class="mb-4">
+            <label for="Password" class="form-label">Password</label>
+            <input asp-for="Password" id="Password" class="form-control" />
+        </div>
+
+        <div class="mb-4">
+            <label for="ConfirmPassword" class="form-label">Tesdiq Password</label>
+            <input asp-for="ConfirmPassword" id="ConfirmPassword" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block mb-4">Admin Yarat</button>
+    </form>
+</div>
+
+<style>
+    @@media screen and (max-width: 576px) {
+        /* Adjustments for smaller screens */
+        .form-label {
+            font-size: 0.9em;
+        }
+        .form-control {
+            padding: 0.375rem 0.75rem;
+            font-size: 0.9em;
+        }
+    }
+</style>
+
+<script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message");
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+            Swal.fire({
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("/images/nyan-cat.gif")
+                    left top
+                    no-repeat
+                `
+            });
+        }
+    }
+</script>

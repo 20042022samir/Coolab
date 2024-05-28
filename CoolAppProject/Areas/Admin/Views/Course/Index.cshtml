@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* Media query for screens less than 800px */
+        @@media (max-width: 800px) {
+            .responsive-id,
+            .responsive-view-count,
+            .responsive-muracietler,
+            .responsive-sekil {
+                display: none; /* Hide the specified columns */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    @model IEnumerable<Course>
+
+    <div style="display: flex; flex-direction: column;">
+        <div class="table-responsive">
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col" class="responsive-view-count">Id</th>
+                        <th scope="col">Ad</th>
+                        <th scope="col" class="responsive-view-count">Baxıç sayı</th>
+                        <th scope="col" class="responsive-view-count">Sahə</th>
+                        <th scope="col" class="responsive-view-count">Şəkil</th>
+                        <th scope="col">Guncelle</th>
+                        <th scope="col">Sil</th>
+                        <th scope="col" class="responsive-view-count">Müraciətlər</th>
+                        <th scope="col">Ana Ekrana Əlavə et</th>
+                        <th scope="col">Esas Kurs Et</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <th scope="row" class="responsive-id">@item.Id</th>
+                            <td>@item.Name</td>
+                            <td class="responsive-view-count">@item.ViewCount</td>
+                            <td class="responsive-view-count">@item.Subject.Name</td>
+                            <td class="responsive-view-count"><img src="~/Assets/img/@item.Image" id="image" /></td>
+                            <td><a asp-controller="course" asp-action="update" asp-route-id="@item.Id">Guncelle</a></td>
+                            <td><a asp-controller="course" asp-action="delete" asp-route-id="@item.Id">Sil</a></td>
+                            <td class="responsive-view-count"><a asp-controller="course" asp-action="showcoursecontacts" asp-route-courseId="@item.Id">Muracietler</a></td>
+                            @if (item.ForHomeScreen == true)
+                            {
+                                <td><a asp-controller="course" asp-action="RemoveFormHomeScreen" asp-route-courseId="@item.Id" style="color:red;">Sil</a></td>
+                            }
+                            else
+                            {
+                                <td><a asp-controller="course" asp-action="MakeForHomeScreen" asp-route-courseId="@item.Id" style="color:green;">Ana Ekrana Elave Et</a></td>
+                            }
+                            @if(item.IsSpecial){
+                                <td><a asp-controller="course" asp-action="MakeSimpleCourse" asp-route-id="@item.Id" style="color:red;">Adi Kurs Et</a></td>
+                            }
+                            else
+                            {
+                                <td><a asp-controller="course" asp-action="MakeSpecial" style="color:green;" asp-route-id="@item.Id">Esas Kurs Et</a></td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <a class="btn btn-primary" asp-controller="course" asp-action="create" role="button">Seminar Əlavı Et</a>
+    </div>
+
+</body>
+</html>

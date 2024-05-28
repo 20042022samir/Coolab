@@ -1,0 +1,56 @@
+﻿@using CoolApp.Core.Entities;
+
+@model Blog
+
+<style>
+    #section1Container{
+        width:950px;
+    }
+    @@media screen and (max-width:150px){
+        #section1Container{
+            width:800px;
+        }
+    }
+    @@media screen and (max-width:840px){
+        #section1Container{
+            width:400px;
+        }
+    }
+    @@media screen and (max-width:420px){
+        #section1Container{
+            width:320px;
+        }
+    }
+</style>
+
+<section id="section1">
+	<div id="section1Container" style="margin:auto;">
+        <form method="post" asp-controller="blog" asp-action="CreateeBlog" enctype="multipart/form-data" style="width:100%;">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Adınız</label>
+    <input asp-for="UserName" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Bloqun adı</label>
+    <input asp-for="Title" class="form-control" id="exampleInputPassword1">
+  </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Bloqun Şəkili</label>
+                <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="image.." asp-for="@Model.file">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Bloq Haqqında</label>
+                <input asp-for="Description"  class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <select asp-for="CategoryIds" multiple class="form-select" aria-label="Default select example">
+                <option value="@null" >Bloq Kateqoriyalar</option>
+                @foreach (var cat in ViewBag.Categories)
+                {
+                    <option value="@cat.Id">@cat.Name</option>
+                }
+            </select>
+  <button type="submit" class="btn btn-primary">Təsdiqlə    </button>
+</form>
+	</div>
+</section>

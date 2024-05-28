@@ -1,0 +1,91 @@
+﻿@using CoolApp.Core.Entities;
+@model IEnumerable<Course>
+
+
+<style>
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section1Container {
+        width: 1200px;
+    }
+
+    @@media screen and (max-width:1200px) {
+        #section1Container {
+            width: 890px;
+        }
+    }
+
+    @@media screen and (max-width:890px) {
+        #section1Container {
+            width: 600px;
+        }
+    }
+
+    @@media screen and (max-width:600px) {
+        #section1Container {
+            width: 420px;
+        }
+    }
+
+    @@media screen and (max-width:420px) {
+        #section1Container {
+            width: 300px;
+        }
+    }
+</style>
+
+<div id="container">
+    @if (Model.Count() == 0)
+    {
+        <h2 style="color:red;text-align:center;margin-top:30px;">Istediyinize uygun seminaar yoxdur!</h2>
+    }
+    else
+    {
+
+
+        <section id="section1">
+            <div id="section1Container" style="display:flex;flex-wrap:wrap;">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <a asp-controller="course" asp-action="detail" asp-route-id="@item.Id">
+
+                            <div class="rounded overflow-hidden mb-2">
+                                <img class="img-fluid" src="~/Assets/img/@item.Image" alt="" style="width:100%;height:200px;">
+                                <div class="bg-secondary p-4">
+                                    <div class="d-flex  mb-3" style="align-items:center;column-gap:10px;">
+                                        <span>
+
+                                            <i class="fa-solid fa-book"></i>
+                                        </span>
+                                        <a asp-controller="home" asp-action="subjectdetail" asp-route-id="@item.Subject.Id">
+
+                                            <small class="m-0" style="color:orange;">@item.Subject.Name</small>
+                                        </a>
+                                    </div>
+                                    <a class="h5" href="">@item.Name</a>
+                                    <div class="border-top mt-4 pt-4" style="align-items:center;">
+                                        <div class="d-flex justify-content-between" style="align-items:center;">
+                                            <a asp-controller="course" asp-action="detail" asp-route-id="@item.Id" style="padding:6px 9px; background-color:orangered;color:white;cursor:pointer;">Müraciət et</a>
+                                            <div>
+                                                <span style="padding:2px 4px;background-color:orangered;color:white;">@item.Price AZN</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                }
+            </div>
+        </section>
+    }
+</div>

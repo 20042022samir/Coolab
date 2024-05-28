@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Blog>
+
+<div style="display:flex;flex-direction:column;">
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Ad</th>
+                <th scope="col">Sekil</th>
+                <th scope="col">Tesdiqle</th>
+                <th scope="col">Guncelle</th>
+                <th scope="col">Sil</th>
+                <th scope="col">Ətraflı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Title</td>
+                    <td><img src="~/Assets/img/@item.Image" style="width:100px;height:100px;" /></td>
+                    @if(item.IsAproved==true){
+                        <td><a asp-controller="blog" asp-action="dissapproveblog" asp-route-id="@item.Id" style="color:red;">Sil</a></td>
+                    }
+                    else {
+                        <td><a asp-controller="blog" asp-action="approveblog" asp-route-id="@item.Id">Tesdiqle</a></td>
+                    }
+                    <td><a asp-controller="blog" asp-action="update" asp-route-id="@item.Id">Guncelle</a></td>
+                    <td><a asp-controller="blog" asp-action="delete" asp-route-id="@item.Id">Sil</a></td>
+                    <td><a asp-controller="blog" asp-action="UserBlogDetail" asp-route-id="@item.Id">Ətraflı</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    @@media screen and (max-width: 800px) {
+        th:nth-child(3),
+        td:nth-child(3),
+        th:nth-child(1),
+        td:nth-child(1) {
+            display: none;
+        }
+    }
+</style>

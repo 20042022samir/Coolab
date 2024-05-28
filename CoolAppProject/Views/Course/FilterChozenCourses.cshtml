@@ -1,0 +1,11 @@
+﻿@using CoolApp.Core.Entities;
+@model IEnumerable<Course>
+
+
+<div>
+	@foreach (var item in Model)
+	{
+		<img src="~/Assets/img/@item.Image" />
+		<p>@item.Name</p>
+	}
+</div>

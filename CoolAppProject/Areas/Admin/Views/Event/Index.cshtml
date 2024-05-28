@@ -1,0 +1,99 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+<style>
+    #tableData {
+        width: 100%;
+        height: 500px;
+    }
+
+    #containerDiv {
+        width: 500px;
+    }
+
+    #image {
+        width: 100px;
+        height: 100px;
+    }
+
+     @@media screen and (max-width: 800px) {
+        /* Hide specified columns on screens less than 800px */
+        th:nth-child(1),
+        td:nth-child(1),
+        th:nth-child(3),
+        td:nth-child(3),
+        th:nth-child(4),
+        td:nth-child(4),
+        th:nth-child(8),
+        td:nth-child(8),
+        th:nth-child(10),
+        td:nth-child(10) {
+            display: none;
+        }
+    }
+
+    @@media screen and (max-width: 600px) {
+        /* Adjust styles for screens less than 600px */
+        #containerDiv {
+            width: 300px;
+        }
+
+        #image {
+            width: 50px;
+            height: 50px;
+        }
+    }
+</style>
+
+<div style="display:flex;flex-direction:column;">
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Ad</th>
+                <th scope="col">Baslama Tarixi</th>
+                <th scope="col">Şəkil</th>
+                <th scope="col">Guncelle</th>
+                <th scope="col">Sil</th>
+                <th scope="col">Müraciətlər</th>
+                <th scope="col">Ana Ekrana Əlavə et</th>
+                <th scope="col">Ana ekrandan sil</th>
+                <th scope="col">Esas Tedbir Et</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>@item.StartedDate</td>
+                    <td><img src="~/Assets/img/@item.Image" id="image" /></td>
+                    <td><a asp-controller="event" asp-action="update" asp-route-id="@item.Id">Guncelle</a></td>
+                    <td><a asp-controller="event" asp-action="delete" asp-route-id="@item.Id">Sil</a></td>
+                    <td><a asp-controller="event" asp-action="ShowSingleContact" asp-route-id="@item.Id">Muracietler</a></td>
+                    
+                    @if (item.ForMainPage == true)
+                    {
+                        <td><a asp-controller="event" asp-action="MakeForHomeScreen" asp-route-id="@item.Id" style="color:green;">Ana Ekrana Elave Et</a></td>
+                    }
+                    else
+                    {
+                        <td><a asp-controller="event" asp-action="MakeForHomeScreen" asp-route-id="@item.Id">Ana Ekrana Elave Et</a></td>
+                    }
+                    
+                    @if (item.SpecialEvent == true)
+                    {
+                        <td><a asp-controller="event" asp-action="MakeSimpleEvent" style="color:red;" asp-route-id="@item.Id">Adi Tedbir Et</a></td>
+                    }
+                    else
+                    {
+                        <td><a asp-controller="event" asp-action="CreateSpecialEvent" style="color:green;" asp-route-id="@item.Id">Esas Tedbir Et</a></td>
+                    }
+
+                    <td><a asp-controller="event" asp-action="DeleteFromHome" asp-route-id="@item.Id">Ana Ekrandaan Sil</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a class="btn btn-primary" asp-controller="event" asp-action="create" role="button">Sahə Əlavı Et</a>
+</div>

@@ -1,0 +1,76 @@
+﻿@using CoolApp.Core.Entities;
+@model Blog
+
+@if (Model.CreatedByUser == true)
+{
+    <h2 style="text-align:center;margin-top:20px;">@Model.UserName adli Istifadeci Terefinden yaradilmis Bloq</h2>
+}
+
+<!-- Detail Start -->
+<div class="container-fluid ">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="mb-5">
+                    <h6 class="text-primary mb-3">@Model.CreatedDate.Day:@Model.CreatedDate.Month:@Model.CreatedDate.Year</h6>
+                    <h1 class="mb-5">@Model.Title</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid rounded mb-4" src="~/Assets/img/@Model.Image" alt="Image" style="max-height: 400px; width: 100%; object-fit: cover;height:100%;">
+                        </div>
+                        <div class="col-md-6">
+                            <p style="word-break:break-all;">
+                                @if (Model.Description.Length <= 500) 
+                                {
+                                    @Model.Description
+                                }
+                                else
+                                {
+                                    @Html.Raw(Model.Description.Substring(0, 500))
+                                }
+                            </p>
+               
+                        </div>
+                        @if (Model.Description.Length > 500)
+                        {
+                            <p>
+                                @Html.Raw(Model.Description.Substring(500))
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+                <!-- Category List -->
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Kateqoriyalar</h3>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var item in Model.BlogCategories)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a asp-controller="blog" asp-action="blogcategorydetail" asp-route-id="@item.Category.Id" class="text-decoration-none h6 m-0">@item.Category.Name</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+                <!-- Recent Post -->
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">Ən Son Bloqlar</h3>
+                    @foreach (var item in ViewBag.ExtraBlogs)
+                    {
+                        <a class="d-flex align-items-center text-decoration-none mb-3" asp-controller="blog" asp-action="detail" asp-route-id="@item.Id">
+                            <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                            <div class="pl-3">
+                                <h6 class="m-1">@item.Title</h6>
+                                <small>@item.CreatedDate.Day:@item.CreatedDate.Month:@item.CreatedDate.Year</small>
+                            </div>
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Detail End -->

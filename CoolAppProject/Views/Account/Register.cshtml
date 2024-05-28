@@ -1,0 +1,179 @@
+﻿@model RegisterViewModel
+
+<style>
+    #formContainer{
+        width:450px;
+        margin:auto;
+        padding:30px 0px 0px 0px;
+    }
+
+    #schoolName{
+        display:none;
+    }
+
+    #uniName{
+        display:none;
+    }
+    @@media screen and (max-width:500px){
+        #formContainer{
+            width:300px;
+        }
+    }
+    @@media screen and (max-width:300px){
+        #formContainer{
+            width:200px;
+        }
+    }
+</style>
+
+
+@{
+    int num = 0;
+}
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["Registered"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Registered"]</div>
+}
+
+
+<h2 style="text-align:center;">Qeydiyyatdan Keçin</h2>
+<div id="formContainer" >
+
+<form method="post" style="width:100%;" asp-controller="account" asp-action="register" >
+        <div asp-validation-summary="ModelOnly" style="color:red;"></div>
+
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+        <input  asp-for="Name"  placeholder="Adınız" id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">@ViewBag.RegisterWords.Name</label>
+    </div>
+
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+        <input asp-for="Surname" id="form2Example2" placeholder="soyadınız" class="form-control" />
+            <label class="form-label" for="form2Example2">@ViewBag.RegisterWords.Surname</label>
+    </div>
+
+
+        <div class="form-outline mb-4">
+            <input asp-for="UserName" placeholder="Istifadeci Adınız" id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">Istifadeci Adi</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input asp-for="Email" placeholder="Mailiniz" id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">@ViewBag.RegisterWords.Email</label>
+        </div>
+
+        <div class="form-outline mb-4"> 
+            <input asp-for="Password" placeholder="Parolunuz" id="form2Example1" class="form-control" />
+            <label class="form-label" for="form2Example1">@ViewBag.RegisterWords.Password</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input asp-for="ConfirmPassword" placeholder="Parolunuzu Təsdiqləyin" id="form2Example1" class="form-control" />
+
+            <label class="form-label" for="form2Example1">@ViewBag.RegisterWords.ConfirmPassword</label>
+        </div>
+
+
+        <div class="form-outline mb-4">
+            <input asp-for="IsTeacher" id="isTeacher"   />
+
+            <label class="form-label" for="isTeacher">@ViewBag.RegisterWords.Muellimem</label>
+        </div>
+
+        <div class="form-outline mb-4">
+            <input asp-for="IsStudent" id="isStudent"  />
+
+            <label class="form-label" for="isStudent">@ViewBag.RegisterWords.Telebeyem</label>
+        </div>
+
+        <div>
+            <input asp-for="SchoolUniName" id="schoolName" class="form-control" />
+            <label class="form-label" id="uniName" for="form2Example1">Mektebin/Universitetinizin adi</label>
+        </div>
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Qeydiyyat</button>
+
+    <!-- Register buttons -->
+    <div class="text-center">
+        <p>Hesabininiz Var? <a asp-controller="account" asp-action="login" >Daxil Olun</a></p>
+
+
+    </div>
+</form>
+</div>
+
+
+
+            <script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message")
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+
+            Swal.fire({
+
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("/images/nyan-cat.gif")
+                    left top
+                    no-repeat
+                  `
+            })
+
+        }
+
+
+    }
+
+
+</script>
+
+
+
+<script>
+    // Get references to the inputs and add event listeners
+    const isTeacherInput = document.getElementById("isTeacher");
+    const isStudentInput = document.getElementById("isStudent");
+    const schoolNameInput = document.getElementById("schoolName");
+    const uniName=document.getElementById("uniName");
+
+
+    isTeacherInput.addEventListener("change", toggleSchoolNameInput);
+    isStudentInput.addEventListener("change", toggleSchoolNameInput);
+
+    function toggleSchoolNameInput() {
+        if (isTeacherInput.checked || isStudentInput.checked) {
+            schoolNameInput.style.display = "block";
+            uniName.style.display="block";
+        } else {
+            schoolNameInput.style.display = "none";
+            uniName.style.display="none";
+        }
+    }
+
+
+    // Ensure only one radio button can be selected
+    isTeacherInput.addEventListener("change", () => {
+        if (isTeacherInput.checked) {
+            isStudentInput.checked = false;
+        }
+    });
+
+    isStudentInput.addEventListener("change", () => {
+        if (isStudentInput.checked) {
+            isTeacherInput.checked = false;
+        }
+    });
+</script>

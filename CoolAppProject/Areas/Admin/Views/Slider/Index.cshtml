@@ -1,0 +1,103 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+
+<style>
+    /* Media queries for responsiveness */
+    @@media screen and (max-width: 800px) {
+        /* Hide specified columns on screens less than 800px */
+        th:nth-child(1),
+        td:nth-child(1),
+        th:nth-child(4),
+        td:nth-child(4) {
+            display: none;
+        }
+    }
+
+    /* Optional: Adjust table width, cell height, and button styles */
+    .table {
+        width: 100%;
+        max-width: 500px; /* Adjust max-width to your preference */
+        height: auto;
+    }
+
+    .table th {
+        height: 40px; /* Adjust cell height as needed */
+    }
+
+    button {
+        width: 100%; /* Adjust button width */
+        max-width: 300px; /* Adjust max-width to your preference */
+        height: 35px;
+        background-color: black;
+        color: white;
+        margin-left: 7px;
+    }
+</style>
+
+@model IEnumerable<Slider>
+@{
+    int num = 0;
+}
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["Slider"]))
+{
+    <div style="display:none" id="alert-message">@TempData["Slider"]</div>
+}
+
+<div style="display:flex;flex-direction:column;">
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Başlıq</th>
+                <th scope="col">Ətraflı</th>
+                <th scope="col">Şəkil</th>
+                <th scope="col">Güncəllə</th>
+                <th scope="col">Sil</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td><img src="~/Assets/img/@item.Image" style="width:100px" /></td>
+                    <td><a asp-controller="slider" asp-action="update" asp-route-id="@item.Id">Update</a></td>
+                    <td><a asp-controller="slider" asp-action="delete" asp-route-id="@item.Id">Delete</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="slider" asp-action="create">
+        <button>Slider Əlavə Et</button>
+    </a>
+</div>
+
+<script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message")
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+
+            Swal.fire({
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                    rgba(0,0,123,0.4)
+                    url("/images/nyan-cat.gif")
+                    left top
+                    no-repeat
+                `
+            })
+
+        }
+    }
+</script>

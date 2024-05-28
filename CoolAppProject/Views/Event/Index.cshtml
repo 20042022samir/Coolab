@@ -1,0 +1,55 @@
+﻿@using CoolApp.Core.Entities;
+@model PagginationViewModel<Event>
+
+
+<!-- Courses Start -->
+<div class="container-fluid ">
+    <div class="container ">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">@Model.contactWords.Tedbirler</h5>
+            <h1>@Model.contactWords.TedbirlerDesc</h1>
+        </div>
+        <div class="row">
+            @foreach (var item in Model.Items)
+            {
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <a asp-controller="event" asp-action="detail" asp-route-id="@item.Id">
+
+                        <div class="rounded overflow-hidden mb-2">
+                            <img class="img-fluid" src="~/Assets/img/@item.Image" alt="" style="width:100%;height:270px;">
+                            <div class="bg-secondary p-4">
+
+                                <a class="h5" href="">@item.Name</a>
+
+                                <div class="border-top mt-4 pt-4">
+                                    <div class="d-flex justify-content-between">
+                                        <a asp-controller="event" asp-action="detail" asp-route-id="@item.Id" style="padding:6px 9px; background-color:orangered;color:white;cursor:pointer;">Müraciət et</a>
+                                        <h3>@item.StartedDate.Day : @item.StartedDate.Month : @item.StartedDate.Year</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            }
+        </div>
+
+        <div class="col-12">
+            <nav aria-label="Page navigation">
+                <ul class="pagination pagination-lg justify-content-center mb-0">
+
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="page-item"><a class="page-link" href="@Url.Action("Index", new { page = i, pageSize = Model.PageSize })">@i</a></li>
+                    }
+
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+</div>
+<!-- Courses End -->

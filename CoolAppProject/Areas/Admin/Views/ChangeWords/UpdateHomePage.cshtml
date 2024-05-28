@@ -1,0 +1,80 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+@model HomePageWords
+
+<form method="post" style="margin:10px;" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Saheler</label>
+        <input  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.Saheler">
+        <span class="alert alert-text" asp-validation-for="@Model.Saheler" style="color:red; font-size:16px;"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Saheler Desc</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.DescriptionSaheler">
+        <span class="alert alert-text" asp-validation-for="@Model.DescriptionSaheler" style="color:red; font-size:16px;"></span>
+    </div>
+
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Xususi Tedbir</label>
+        <input  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.SpecialEvent">
+        <span class="alert alert-text" asp-validation-for="@Model.SpecialEvent" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Seminarlar</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.Semiarlar">
+        <span class="alert alert-text" asp-validation-for="@Model.Semiarlar" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Seminarlar Desc</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.SeminarlarDescription">
+        <span class="alert alert-text" asp-validation-for="@Model.SeminarlarDescription" style="color:red; font-size:16px;"></span>
+    </div>
+  <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Xususi Tedbir</label>
+        <input  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.SpecialEvent">
+        <span class="alert alert-text" asp-validation-for="@Model.SpecialEvent" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Muellimler</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.Teachers">
+        <span class="alert alert-text" asp-validation-for="@Model.Teachers" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Teachers Desc</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.TeachersDesc">
+        <span class="alert alert-text" asp-validation-for="@Model.TeachersDesc" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Teachers Desc</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.SpecialCourse">
+        <span class="alert alert-text" asp-validation-for="@Model.SpecialCourse" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Comment</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.Comment">
+        <span class="alert alert-text" asp-validation-for="@Model.Comment" style="color:red; font-size:16px;"></span>
+    </div>
+
+        <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Comment</label>
+    <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.CommentDescription">
+        <span class="alert alert-text" asp-validation-for="@Model.Comment" style="color:red; font-size:16px;"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Bloqlar</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.Blogs">
+        <span class="alert alert-text" asp-validation-for="@Model.Blogs" style="color:red; font-size:16px;"></span>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Bloqlar Desc</label>
+        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name.." asp-for="@Model.BlogsDescription">
+        <span class="alert alert-text" asp-validation-for="@Model.BlogsDescription" style="color:red; font-size:16px;"></span>
+    </div>
+
+
+
+    <button type="submit">Submit</button>
+</form>

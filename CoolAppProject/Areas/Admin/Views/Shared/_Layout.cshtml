@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<style>
+    #tooglebtn {
+        @@media screen and(max-width:1000px) {
+            #tooglebtn {
+                display:none;
+            }
+        }
+    }
+</style>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Majestic Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/Admin/Assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="~/Admin/Assets/vendors/base/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <link rel="stylesheet" href="~/Admin/Assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/Admin/Assets/css/style.css">
+    <!-- endinject -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="~/Admin/Assets/images/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div id="tooglebtn" class="navbar-brand-wrapper d-flex justify-content-center">
+                <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
+                    <a class="navbar-brand brand-logo" ><img src="~/Assets/img/42969d03-caf6-4930-91e1-6c1a765d2f46coolab.jpg" style="height:50px;border-radius:50px;"  alt="logo" /></a>
+                    <a class="navbar-brand brand-logo-mini" ><img src="~/Admin/Assets/images/logo-mini.svg" alt="logo" /></a>
+                    <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+                        <span class="mdi mdi-sort-variant"></span>
+                    </button>
+                </div>
+            </div>
+            <button id="controlBtn" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                Menu
+            </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <ul class="nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="home" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Əsas</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="teacher" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Müəllimlər</span>
+                                </a>
+                            </li>
+
+
+                            
+
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="slider" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Slider Show</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="category" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Blog Kateqoriya</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="blog" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Bloq</span>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="subject" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Tədris Sahələri</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="course" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Tədbir və tədris əlavə et</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="pagedata" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Səhifə Datası</span>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="contact" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Əlaqələr</span>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="event" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Fəaliyyətlər</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="course" asp-action="showallcomments">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Tələbə Rəyləri</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="course" asp-action="ShowAllCourseContacts">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Tədbir Müraciətləri</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="event" asp-action="ShowAllEventContacts">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Fəaliyyət Müraciətləri</span>
+                                </a>
+                            </li>
+
+
+
+                            @if(User.Identity.IsAuthenticated==true && User.IsInRole("SuperAdmin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="user" asp-action="index">
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                        <span class="menu-title">Istifadeciler</span>
+                                    </a>
+                                </li>
+                            }
+
+                           
+
+                           
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="price" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Tədbir Qiymət aralıqları</span>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="blog" asp-action="indexuserblogs">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Istifadəçi Bloqları</span>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="user" asp-action="enteredemails">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Daxil edilən Maillər</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="ChangeWords" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Səhifə Sözləri</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="meta" asp-action="index">
+                                    <i class="mdi mdi-home menu-icon"></i>
+                                    <span class="menu-title">Meta Taglar</span>
+                                </a>
+                            </li>
+
+                            @if (User.Identity.IsAuthenticated == true && User.IsInRole("SuperAdmin"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="admin" asp-action="index">
+                                        <i class="mdi mdi-home menu-icon"></i>
+                                        <span class="menu-title">Adminlər</span>
+                                    </a>
+                                </li>
+                            }
+
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="home" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Əsas</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="teacher" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Müəllimlər</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="feedback" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Tələbə Rəyləri</span>
+                        </a>
+                    </li>
+
+                    
+                   
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="slider" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Slider Show</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="category" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Blog Kateqoriya</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="blog" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Bloq</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="subject" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Tədris Sahələri</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="course" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Tədbir və Tədris əlavə et</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="pagedata" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Səhifə Datası</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="contact" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Əlaqələr</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="event" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Fəaliyyətlər</span>
+                        </a>
+                    </li>
+
+                       <li class="nav-item">
+                        <a class="nav-link" asp-controller="course" asp-action="showallcomments">
+                         <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Tələbə Rəyləri</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="course" asp-action="ShowAllCourseContacts">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Tədbir Müraciətləri</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="event" asp-action="ShowAllEventContacts">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Fəaliyyət Müraciətləri</span>
+                        </a>
+                    </li>
+
+                    @if(User.Identity.IsAuthenticated==true && User.IsInRole("SuperAdmin"))
+                    {
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="user" asp-action="index">
+                                <i class="mdi mdi-home menu-icon"></i>
+                                <span class="menu-title">Istifadəçilər</span>
+                            </a>
+                        </li>
+                    }
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="price" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Tədbir Qiymət aralıqları</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="blog" asp-action="indexuserblogs">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Istifadəçi Bloqları</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="user" asp-action="enteredemails">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Daxil edilən Maillər</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="ChangeWords" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Səhifə Sözləri</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="meta" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Meta Taglar</span>
+                        </a>
+                    </li>
+
+                    @if (User.Identity.IsAuthenticated == true && User.IsInRole("SuperAdmin"))
+                    {
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="admin" asp-action="index">
+                            <i class="mdi mdi-home menu-icon"></i>
+                            <span class="menu-title">Adminlər</span>
+                        </a>
+                    </li>
+                    }
+                    
+                    
+
+                </ul>
+            </nav>
+            <style>
+    #controlBtn {
+        display: none;
+        height:40px;
+    }
+    
+    @@media screen and (max-width: 1000px) {
+        #controlBtn {
+            display: initial;
+        }
+    }
+</style>
+
+
+            <!-- partial -->
+        @RenderBody()
+            <!-- plugins:js -->
+            <script src="~/Admin/Assets/vendors/base/vendor.bundle.base.js"></script>
+            <!-- endinject -->
+            <!-- Plugin js for this page-->
+            <script src="~/Admin/Assets/vendors/chart.js/Chart.min.js"></script>
+            <script src="~/Admin/Assets/vendors/datatables.net/jquery.dataTables.js"></script>
+            <script src="~/Admin/Assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+            <!-- End plugin js for this page-->
+            <!-- inject:js -->
+            <script src="~/Admin/Assets/js/off-canvas.js"></script>
+            <script src="~/Admin/Assets/js/hoverable-collapse.js"></script>
+            <script src="~/Admin/Assets/js/template.js"></script>
+            <!-- endinject -->
+            <!-- Custom js for this page-->
+            <script src="~/Admin/Assets/js/dashboard.js"></script>
+            <script src="~/Admin/Assets/js/data-table.js"></script>
+            <script src="~/Admin/Assets/js/jquery.dataTables.js"></script>
+            <script src="~/Admin/Assets/js/dataTables.bootstrap4.js"></script>
+            <!-- End custom js for this page-->
+</body>
+
+</html>
+

@@ -1,0 +1,38 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ea89281bc3.js" crossorigin="anonymous"></script>
+
+@model Course
+
+<div style="display:flex;flex-direction:column;">
+    <table class="table" style="width:500px; height:300px;">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col" style="height:40px;">Id</th>
+                <th scope="col" style="height:40px;">FullName</th>
+                <th scope="col" style="height:40px;">Message</th>
+                <th scope="col" style="height:40px;">PhoneNumber</th>
+                <th scope="col" style="height:40px;">Email</th>
+                <th scope="col" style="height:40px;">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.CourseContacts)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.FullName</th>
+                    @if (item.Message != null)
+                    {
+                                            <th>@item.Message</th>
+                    }
+                    <th>@item.PhoneNumber</th>
+                    <th>@item.Email</th>
+                    <th><a asp-controller="course" asp-action="deletecontact" asp-route-id="@item.Id" asp-route-courseId="@Model.Id" >Delete</a></th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

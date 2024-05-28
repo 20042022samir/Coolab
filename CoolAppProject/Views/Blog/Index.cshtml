@@ -1,0 +1,203 @@
+﻿@using CoolApp.Core.Entities;
+@model PagginationViewModel<Blog>  
+
+    @{
+    int num = 0;
+}
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["CreatedBlog"]))
+{
+    <div style="display:none" id="alert-message">@TempData["CreatedBlog"]</div>
+}
+
+@if (num == 0 && !string.IsNullOrWhiteSpace((string)TempData["NotBloq"]))
+{
+    <div style="display:none" id="alert-message">@TempData["NotBloq"]</div>
+}
+
+
+<!-- List Directory -->
+<div id="openRolesSection" class="container content-space-1">
+    <!-- Heading -->
+    <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-5 mb-md-9">
+        <h2>@Model.blogWords.Filter</h2>
+        <p>@Model.blogWords.FilterDesc</p>
+    </div>
+    <!-- End Heading -->
+    <!-- Form -->
+    <form method="post" style="display:flex;flex-direction:column;row-gap:10px;" asp-controller="blog" asp-action="filteredblogs">
+        <div class="row gx-2 gx-md-3 mb-7" style="justify-content:center;">
+
+
+            <div class="col-sm-6 col-md-4 mb-2 mb-sm-0">
+                <label class="form-label visually-hidden" for="locationsJobCareers">Select location</label>
+
+                <!-- Select -->
+                <select asp-for="CreatedByUserNumber" class="form-select form-select-lg" id="locationsJobCareers" aria-label="Select location">
+                    <option value="@null">Bloqun Muellifi</option>
+                    <option value="1">Istifadəçi tərəfindən</option>
+                    <option value="2">Coolab Tərəfindən</option>
+
+                    
+                </select>
+                <!-- End Select -->
+            </div>
+            <!-- End Col -->
+
+            <div class="col-sm-6 col-md-4">
+                <label class="form-label visually-hidden" for="departmentsJobCareers">Select department</label>
+
+                <!-- Select -->
+                <select asp-for="CategoryId" class="form-select form-select-lg" id="departmentsJobCareers" aria-label="Select department">
+                    <option value="@null">Sahə</option>
+                    @foreach (var item in ViewBag.Catgeories)
+                    {
+
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+                <!-- End Select -->
+            </div>
+            <!-- End Col -->
+        </div>
+        <div style="display:flex;column-gap:10px;justify-content:center;align-items:center;">
+
+            <button type="submit" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a asp-controller="blog" asp-action="CreateeBlog" class="btn btn-outline-success">@Model.blogWords.CreateOwnBlog</a>
+        </div>
+
+
+        <!-- End Row -->
+    </form>
+    <!-- End Form -->
+
+
+</div>
+<!-- End List Directory -->
+
+<!-- Blog Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row pb-3">
+                    @foreach (var item in Model.Items)
+                    {
+                        @if(item.CreatedByUser && item.IsAproved)
+                        {
+                            
+                        <div class="col-lg-6 mb-4">
+                        <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                            <img class="img-fluid" src="~/Assets/img/@item.Image" alt="" style="width:100%;height:280px;">
+                            <a class="blog-overlay text-decoration-none" asp-controller="blog" asp-action="detail" asp-route-id="@item.Id" >
+                                <h5 class="text-white mb-3">@item.Title</h5>
+                                <p class="text-primary m-0">@item.CreatedDate.Day:@item.CreatedDate.Month:@item.CreatedDate.Year</p>
+                            </a>
+                        </div>
+                    </div>
+                        }
+                        @if (item.CreatedByUser == false)
+                        {
+                            <div class="col-lg-6 mb-4">
+                                <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                                    <img class="img-fluid" src="~/Assets/img/@item.Image" alt="" style="width:100%;height:280px;">
+                                    <a class="blog-overlay text-decoration-none" asp-controller="blog" asp-action="detail" asp-route-id="@item.Id">
+                                        <h5 class="text-white mb-3">@item.Title</h5>
+                                        <p class="text-primary m-0">@item.CreatedDate.Day:@item.CreatedDate.Month:@item.CreatedDate.Year</p>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+
+                    }                    
+                    <div class="col-12">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination pagination-lg justify-content-center mb-0">
+
+                                 @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                                    <li class="page-item"><a class="page-link" href="@Url.Action("Index", new { page = i, pageSize = Model.PageSize })">@i</a></li>
+                    }
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-5 mt-lg-0">
+       
+
+     
+
+                <!-- Category List -->
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">@Model.blogWords.Categories</h3>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var item in Model.Catgeories)
+                        {
+                          <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                                <a asp-controller="blog" asp-action="BlogCategoryDetail" asp-route-id="@item.Id" class="text-decoration-none h6 m-0">@item.Name</a>
+                        </li>
+
+                        }             
+                    </ul>
+                </div>
+
+                <!-- Recent Post -->
+                <div class="mb-5">
+                    <h3 class="text-uppercase mb-4" style="letter-spacing: 5px;">@Model.blogWords.LastCategories</h3>
+                    @foreach (var item in Model.ExtraBlogs)
+                    {
+                                            <a class="d-flex align-items-center text-decoration-none mb-3" asp-controller="blog" asp-action="detail"  asp-route-id="@item.Id"  >
+                        <img class="img-fluid rounded" src="img/blog-80x80.jpg" alt="">
+                        <div class="pl-3">
+                            <h6 class="m-1">@item.Title</h6>
+                            <small>@item.CreatedDate.Day:@item.CreatedDate.Month:@item.CreatedDate.Year</small>
+                        </div>
+                    </a>
+
+                    }                
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog End -->
+
+
+
+<script>
+    let num = 0;
+
+    const alertmessage = document.getElementById("alert-message")
+    if (alertmessage != undefined) {
+        const message = alertmessage.innerHTML;
+
+        if (num == 0 && message != "") {
+
+            Swal.fire({
+
+                title: `${message}`,
+                width: 600,
+                padding: '3em',
+                color: '#716add',
+                background: '#fff url(/images/trees.png)',
+                backdrop: `
+                        rgba(0,0,123,0.4)
+                        url("/images/nyan-cat.gif")
+                        left top
+                        no-repeat
+                      `
+            })
+ 
+        }
+
+
+    }
+
+
+</script>
